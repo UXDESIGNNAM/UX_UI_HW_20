@@ -1,0 +1,436 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+section {
+    color: #414141;
+}
+
+/********** TOP NAVBAR ***************** */
+.navbar {
+    display: block;
+    position:fixed;
+    background-color: white;
+    width:100vw;
+    height:auto;
+    margin-left:0;
+    margin-top:0;
+    z-index:20;
+    /* border: solid 1px red; */
+}
+
+.navContainer {
+    display:flex;
+    /* position:static; */
+    justify-content: space-between;
+    align-content: center;
+    width: 62.5vw;
+    margin:auto;
+    /* border: solid 1px red; */
+}
+
+.navbar-brand {
+    /* border: solid 1px red; */
+    justify-content: left;
+    /* margin-left:0; */
+}
+
+.navbar-nav {
+    margin-left: auto;
+    /* float: right; */
+    /* border: solid 1px red; */
+    /* margin-left: 62%; */
+    /* margin-right:0; */
+}
+
+.nav-link{
+    color: black;
+}
+
+/********** INTRODUCTION ***************** */
+
+.Intro{
+    background: #e2e7ee;
+}
+
+.containerIntroduction {
+    display:flex;
+    height:100%;
+    width:70vw;
+    margin: auto;
+    margin-top: 5%;
+    /* border: solid 1px red; */
+    /* background: url("../Images/SanJoseCA-V2.0-Mockup.png");
+    background-size: 100vh;
+    background-repeat: no-repeat; */  
+}
+
+.row{
+    width:70vw;
+    height: 100%;
+    margin:0;
+    display:flex;
+    /* border: solid 1px red; */
+}
+
+
+.col-6 {
+    display:inline-block;
+    /* border: solid 1px red; */
+    width:100%;
+    margin:auto 0;
+    padding:0;
+    align-items:center;
+    justify-content: center;
+}
+
+.heroImageSjca {
+    width: 145%;
+    margin-left:-35%;
+
+}
+
+.heroTextSjca {
+    /* border: solid 1px red; */
+    margin-right:-20%;
+    margin-left: 10%;
+}
+
+
+
+
+
+/********** OVERVIEW ***************** */
+.overview{
+    background:white;
+}
+
+.containerOverview{
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    width:70vw;
+    margin:auto;
+    justify-content: center;
+    align-content: center;
+    /* border: solid 1px red; */
+}
+
+.display-4{
+    margin:0 auto 3% auto;
+    height: auto;
+    /* border: solid 1px red; */
+}
+
+.overviewText{
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 3%;
+}
+
+
+
+
+/********** PROCESS ***************** */
+
+.process{
+    background: #c0cdde;
+}
+
+.containerProcess{
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    width:70vw;
+    margin:auto;
+    justify-content: center;
+    align-content: center;
+    /* border: solid 1px red; */
+}
+
+.processImageSjca{
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+
+
+
+/********** PROCESS-1 ***************** */
+
+/* #sideNav{
+    position:fixed;
+    margin-left:0;
+    margin-top:auto;
+    margin-bottom:auto;
+} */
+
+.affinityMap1{
+    background-color: white; 
+    /* border: solid 1px red; */
+    width: 100%;;
+}
+
+
+.affinityMap {
+    display: flex;
+    flex-wrap: nowrap;
+    width:100vw;
+    height: 100%;
+    /* background-color:white; */
+    /* border: solid 1px red; */
+}
+
+.AM1 {
+   color:#414141;
+}
+
+.rowProcess1 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.AffinityImage{
+    /* border: solid 1px red; */
+    width: 100%;
+    margin-bottom:3%;
+
+}
+
+
+/********** PROCESS-2 ***************** */
+
+.EM1{
+    background-color: #c0cdde;
+}
+
+.list-group-flush li{
+    /* background-color: #c0cdde; */
+    border: none;
+}
+
+.list-group-flush1 li{
+    background-color: #c0cdde;
+    border: none;
+}
+
+.rowProcess2 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.col-3{
+    width: 100%;
+    /* border: solid 1px red; */
+}
+
+.col-9{
+    width: 100%;
+    /* border: solid 1px red; */
+}
+
+
+.empathyMap {
+    display: flex;
+    flex-wrap: nowrap;
+    width:100vw;
+    height: 100%;
+    /* background-color:white; */
+    /* border: solid 1px red; */
+}
+
+.EmpathyImage{
+    /* border: solid 1px red; */
+    width: 100%;
+    margin-bottom: 3%;
+
+}
+
+
+
+
+/********** PROCESS-3 ***************** */
+.UP1{
+    /* border: solid 1px red; */
+    background-color: white;
+}
+
+.userPersona {
+    width:100vw;
+    height: 100%;
+    /* border: solid 1px red; */
+}
+
+.rowProcess3 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.personaImage{
+    /* border: solid 1px red; */
+    width: 100%;
+    margin-bottom: 3%;
+
+}
+
+
+/********** PROCESS-4 ***************** */
+
+
+
+
+/********** PROCESS-5 ***************** */
+
+
+
+/********** PROCESS-6 ***************** */
+
+
+
+
+/********** PROCESS-7 ***************** */
+
+
+
+
+/********** PROCESS-8 ***************** */
+
+
+
+
+/********** PROCESS-9 ***************** */
+
+
+
+
+/********** PROCESS-10 ***************** */
+
+
+
+/********** PROCESS-11 ***************** */
+
+
+
+
+/********** PROCESS-12 ***************** */
+
+
+
+/********** PROCESS-13 ***************** */
+
+
+
+
+/********** PROCESS-14 ***************** */
+
+
+
+
+/********** PROCESS-15 ***************** */
+
+
+
+
+/********** PROCESS-16 ***************** */
+
+
+
+
+/********** PROCESS-17 ***************** */
+
+
+
+
+/********** PROCESS-18 ***************** */
+
+
+
+
+/********** PROCESS-19 ***************** */
+
+
+
+
+/********** PROCESS-20 ***************** */
+
+
+
+
+/********** PROCESS-21 ***************** */
+
+
+
+
+/********** FOOTER ***************** */
+
+.footerContainer{
+    display: block;
+    width: 100vw;
+    height: 20vh;
+    background-color: #414141;
+}
+
+.footerContent{
+    display:flex;
+    flex-direction: column;
+    /* direction:column; */
+    width: 70vw;
+    height:100%;
+    margin: auto;
+    Padding-top: 10px;
+    padding-bottom:10px;
+    /* border: 2px solid red; */
+}
+
+.footerRow{
+    display:flex;
+    position: static;
+    width: 100%;
+    height: auto;
+    /* height: 33.33%; */
+    /* border: 2px solid red; */
+    color: #eee !important;
+}
+
+.col-4 {
+    /* border: 2px solid red; */
+    align-items: center;
+}
+
+.line{
+    display:block;
+    position: static;
+    width: 70%;
+    height: 2px;
+    /* background-color: #e2e7ee; */
+    /* color: #eee; */
+    border: 1px solid #eee;
+    margin: -10px auto 5px auto;
+    
+}
+
+.icons{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    /* padding-left: 25px; */
+}
+
+.instagram .dribble{
+    padding-left:100px;
+}
+
+.icons a{
+    font-size: 25px;
+    color: #eee;   
+}
+
+.r3{
+    justify-content: center;
+    align-items: center;
+    margin:4% auto;
+    border-top-color: red;
+}
