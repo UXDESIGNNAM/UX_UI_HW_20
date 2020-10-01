@@ -3,6 +3,18 @@
     padding:0;
 }
 
+html {
+    
+    font-family h*: 'Montsterrat', 'Arial', sans-serif;
+    font-weight h*: 300;
+    font-size h*: 20px;
+    font-kerning: normal;
+    font-family p*: 'Raleway', 'Arial', sans-serif;
+    font-weight p*: 100;
+    font-size p: 16px;
+    text-rendering:optimizeLegibility;
+}
+
 section {
     color: #414141;
 }
